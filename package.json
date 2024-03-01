@@ -1,0 +1,14 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "Hello, this is my Playwright study repository. Feel free to browse and see the tests ive implemented. The tests interate over these websites => https://webdriveruniversity.com/ and https://automationteststore.com/",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.11.24"
+  }
+}

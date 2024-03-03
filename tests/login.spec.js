@@ -6,6 +6,7 @@ test("First Test - Sucessfull Login", async ({ page }) => {
   await page.locator("input#username").fill("rahulshettyacademy");
   await page.locator("input#password").fill("learning");
   await page.locator("input#signInBtn").click();
+  await page.waitForLoadState("networkidle");
   await expect(page.locator(".card-body a").first()).toContainText("iphone X");
   await expect(page.locator(".card-body a").nth(1)).toContainText(
     "Samsung Note 8"

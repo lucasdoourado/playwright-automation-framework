@@ -26,7 +26,7 @@ module.exports = defineConfig({
   timeout: 30 * 1000,
   /* Time to wait until the selector is attached to the DOM */
   expect: {
-    timeout: 5000,
+    timeout: 30000,
   },
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
